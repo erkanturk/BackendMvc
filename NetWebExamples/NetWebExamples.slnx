@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="01_ProgramRoute/01_ProgramRoute.csproj" />
+  <Project Path="02_ControllerToView/02_ControllerToView.csproj" Id="7d587f88-6ab9-4644-8750-28c1e2b02291" />
+  <Project Path="03_ViewToController/03_ViewToController.csproj" Id="fa92163e-1b0e-445e-8216-4958e4f2e613" />
+</Solution>
