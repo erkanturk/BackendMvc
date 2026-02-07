@@ -5,4 +5,8 @@
   <Project Path="04_ViewData_ViewBag_TempData/04_ViewData_ViewBag_TempData.csproj" Id="01310993-dd64-4ea2-80f5-6d079dc89a03" />
   <Project Path="05_Html_Helpers/05_Html_Helpers.csproj" Id="c892152f-c507-4ab2-9fa3-3cedb6d3d736" />
   <Project Path="06_Custom_Helpers/06_Custom_Helpers.csproj" Id="349ff3c1-c382-4441-bf2f-f6734f40c2b6" />
+  <Project Path="07_View_Layout_PartialView/07_View_Layout_PartialView.csproj" Id="abd818ec-0952-4801-bd7a-761fa357d210" />
+  <Project Path="08_Render_Section_Nested/08_Render_Section_Nested.csproj" Id="6afeb2af-6f15-4fc6-8e5e-6885e6797c60" />
+  <Project Path="09_ModelsBinding/09_ModelsBinding.csproj" Id="d1dd16af-db43-4f67-8745-f03931b34871" />
+  <Project Path="10_FluentValidation/10_FluentValidation.csproj" Id="3f29d2c8-8805-4ca0-b68f-988bce408e54" />
 </Solution>
