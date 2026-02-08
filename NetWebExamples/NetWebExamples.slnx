@@ -9,4 +9,8 @@
   <Project Path="08_Render_Section_Nested/08_Render_Section_Nested.csproj" Id="6afeb2af-6f15-4fc6-8e5e-6885e6797c60" />
   <Project Path="09_ModelsBinding/09_ModelsBinding.csproj" Id="d1dd16af-db43-4f67-8745-f03931b34871" />
   <Project Path="10_FluentValidation/10_FluentValidation.csproj" Id="3f29d2c8-8805-4ca0-b68f-988bce408e54" />
+  <Project Path="11_AutoMapper/11_AutoMapper.csproj" Id="21201906-aaa2-4ed7-8f65-168253360bab" />
+  <Project Path="12_Dependency_Injection/12_Dependency_Injection.csproj" Id="a54399bc-c306-4ee4-94b0-e2fab7b99a98" />
+  <Project Path="13_StateManagement/13_StateManagement.csproj" Id="f65d02d1-4aa9-44a9-9d20-bdeef29af8ea" />
+  <Project Path="13_StateManagement_2/13_StateManagement_2.csproj" Id="94631317-3cb0-471f-b998-68ce3c115c42" />
 </Solution>
