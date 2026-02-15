@@ -15,7 +15,7 @@ namespace _16_Web_Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Product>>> GetProducts([FromQuery] int page = 1, [FromQuery] int pageSize = 5)
+        public async Task<ActionResult<IEnumerable<Product>>> GetProducts([FromQuery] int page = 1, [FromQuery] int pageSize = 10)
         {//Pagination bir sayfaya kaç adet ürün yükleneceğini ve sistem optimizasyonu için en önemli yapılardan biridir.
             if (_context.Products.Count() > 0)
             {
