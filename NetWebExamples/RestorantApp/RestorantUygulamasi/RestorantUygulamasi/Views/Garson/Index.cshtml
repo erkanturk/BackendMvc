@@ -1,0 +1,38 @@
+﻿@model List<RestorantUygulamasi.ViewModel.MasaListeViewModel>
+@{
+    ViewData["title"] = "Masalar";
+}
+<h2 class="mb-4">Masalar</h2>
+<div class="row">
+    @foreach(var item in Model)
+    {
+        <div class="col-md-3 mb-3">
+            <div class="card @(item.Masa.DoluMu ? "bg-danger" :"bg-success")">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Masa @item.Masa.MasaNumarasi</h5>
+                    @if(item.Masa.DoluMu && item.AktifRezervasyon!=null)
+                    {
+                        <p class="card-text">
+                            <span class="text-danger"><strong>Dolu</strong></span><br />
+                            <small class="text-white">Müşteri:<strong>@item.AktifRezervasyon.MusteriAdi</strong></small>
+                            <small class="text-white">Saat:@item.AktifRezervasyon.RezervasyonTarihi.ToString("HH:mm")</small>
+                        </p>
+                    }
+                    else if(item.Masa.DoluMu)
+                    {
+                        <p class="text-center">
+                            <span class="text-white"><strong>Boş Masa</strong></span>
+                        </p>
+                    }
+                    else
+                    {
+                        <p class="text-center">
+                            <span class="text-white"><strong>Boş</strong></span>
+                        </p>
+                    }
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
