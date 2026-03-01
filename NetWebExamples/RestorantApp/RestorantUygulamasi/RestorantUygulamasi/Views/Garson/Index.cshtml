@@ -30,6 +30,15 @@
                             <span class="text-white"><strong>Boş</strong></span>
                         </p>
                     }
+                    <div class="d-flex justify-content-center">
+                        <a asp-action="Detay" asp-controller="Rezervasyon" asp-route-masaId="@item.Masa.Id" class="btn btn-primary btn-sm me-2">Düzenle</a>
+                        <form asp-controller="Garson" asp-action="DurumDegistir" method="post" class="d-inline">
+                            <input type="hidden" name="masaId" value="@item.Masa.Id"/>
+                            <button type="submit" class="btn @(item.Masa.DoluMu?"btn-success":"btn-danger") btn-sm">
+                                @(item.Masa.DoluMu?"Boş Yap":"Dolu Yap")
+                            </button>
+                        </form>
+                    </div>
 
                 </div>
             </div>
